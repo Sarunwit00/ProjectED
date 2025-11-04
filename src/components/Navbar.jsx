@@ -5,6 +5,9 @@ export default function Navbar() {
         <header className="sticky top-0 z-50 w-full border-b border-gray-200/80 bg-white/70 backdrop-blur">
             <nav className="flex w-full items-center justify-end px-6 py-3">
                 <div className="flex items-center gap-2 sm:gap-3">
+                     <button className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-black/10 sm:px-4">
+                        Home
+                    </button>
                     <button className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-black/10 sm:px-4">
                         แปลภาษา
                     </button>
