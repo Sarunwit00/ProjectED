@@ -20,9 +20,12 @@ export default function Navbar() {
           </NavLink>
 
           {/* ปุ่ม แปลภาษา */}
-          <button className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-black/10 sm:px-4">
+           <NavLink
+            to="/translate"
+            className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-black/10 sm:px-4"
+          >
             แปลภาษา
-          </button>
+          </NavLink>
 
           {/* ปุ่ม เสนอประโยค */}
           <button className="rounded-full border border-gray-200 bg-white px-3 py-1.5 text-sm font-medium text-gray-700 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-black/10 sm:px-4">
